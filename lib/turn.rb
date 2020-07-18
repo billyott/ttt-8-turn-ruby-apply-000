@@ -36,7 +36,7 @@ def turn(board)
   move = gets
   indexed_move = input_to_index(move)
   until valid_move?(board, indexed_move)
-    puts "Sorry, that's not a valid move. Try again."
+    puts "Sorry, that's not a valid move. Try again:"
     move = gets
     indexed_move = input_to_index(move)
   end
